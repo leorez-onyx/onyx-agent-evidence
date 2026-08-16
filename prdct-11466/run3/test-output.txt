@@ -1,0 +1,13 @@
+(node:276706) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 acceptance.spec.ts:136:7 › PRDCT-11466 Endpoint Scanner Version filter › at9 — options are scoped by the active scan window (5.8s)
+  ✓  2 acceptance.spec.ts:148:7 › PRDCT-11466 Endpoint Scanner Version filter › at1 — the filter exists and matches the Browser Extension page's Version filter (11.0s)
+  ✓  3 acceptance.spec.ts:199:7 › PRDCT-11466 Endpoint Scanner Version filter › at2 — selecting a version narrows the list server-side; multi-select unions (5.0s)
+  ✓  4 acceptance.spec.ts:225:7 › PRDCT-11466 Endpoint Scanner Version filter › at3 — a version that is only in a device's HISTORICAL scan never matches (4.3s)
+  ✓  5 acceptance.spec.ts:240:7 › PRDCT-11466 Endpoint Scanner Version filter › at4 — options reflect the real data, incl. the representative (host) row of a split run (5.0s)
+  ✓  6 acceptance.spec.ts:266:7 › PRDCT-11466 Endpoint Scanner Version filter › at5 — the Unknown bucket matches the NULL-version device (4.2s)
+  ✓  7 acceptance.spec.ts:280:7 › PRDCT-11466 Endpoint Scanner Version filter › at6 — per-filter clear and the toolbar Reset All each restore the full list (5.4s)
+  ✓  8 acceptance.spec.ts:315:7 › PRDCT-11466 Endpoint Scanner Version filter › at7 — the synthetic Unknown row stays in sync with the searched (debounced) options (8.2s)
+  ✓  9 acceptance.spec.ts:338:7 › PRDCT-11466 Endpoint Scanner Version filter › at8 — the Unknown row never disappears before the debounced facet request goes out (4.5s)
+
+  9 passed (54.9s)
